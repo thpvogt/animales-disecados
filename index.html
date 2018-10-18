@@ -3,6 +3,21 @@
     <script src="jquery-3.3.1.min.js"></script>
   </head>
   <body>
-    <h1>Prueba</h1>
+    <video id="video-container">
+    </video>
+    <script>
+      var videoNames = [
+        'det1.mp4',
+        'det3.mp4',
+        'det5.mp4',
+        'det6.mp4',
+        'det8.mp4',
+        'det10.mp4',
+        'det11.mp4',
+        'det12.mp4',
+      ];
+      var chosenVideo = videoNames[Math.floor(Math.random()*videoNames.length)];
+      $('#video-container').attr('src', chosenVideo);
+    </script>
   </body>
 </html>
