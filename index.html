@@ -1,16 +1,27 @@
-<video id="video-container" autoplay controls>
-</video>
-<script>
-  var videoNames = [
-    'det1.mp4',
-    'det3.mp4',
-    'det5.mp4',
-    'det6.mp4',
-    'det8.mp4',
-    'det10.mp4',
-    'det11.mp4',
-    'det12.mp4',
-  ];
-  var chosenVideo = videoNames[Math.floor(Math.random()*videoNames.length)];
-  document.getElementById('video-container').setAttribute('src', chosenVideo);
-</script>
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Animales Disecados</title>
+  </head>
+  <body style="margin:0;padding:0;width:100%;height:100%;">
+    <video id="video-container" autoplay controls style="display:block;margin:0 auto;">
+    </video>
+    <script>
+      var videoNames = [
+        'det1.mp4',
+        'det3.mp4',
+        'det5.mp4',
+        'det6.mp4',
+        'det8.mp4',
+        'det10.mp4',
+        'det11.mp4',
+        'det12.mp4',
+      ];
+      var chosenVideo = videoNames[Math.floor(Math.random()*videoNames.length)];
+      document.getElementById('video-container').setAttribute('src', chosenVideo);
+    </script>
+  </body>
+</html>
