@@ -1,2 +1,2 @@
-# coleoptero-videos
-Videos promocionales banda coleoptero
+# animales-disecados
+Videos promocionales banda Animales Disecados
